@@ -1,0 +1,3 @@
+export enum ERepo {
+  ETHER_TRANSACTION = 'ETHER_TRANSACTION',
+}
