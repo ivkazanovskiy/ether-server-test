@@ -19,3 +19,5 @@ Then start the server:
 ```bash
 $ npm start
 ```
+
+Server will listen on port 3000.
