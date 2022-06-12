@@ -20,4 +20,8 @@ Then start the server:
 $ npm start
 ```
 
-Server will listen on port 3000.
+Endpoint:
+
+> GET https://localhost:3000/
+
+Returns string value and 200 status code of 404 if there are no records in the database.
