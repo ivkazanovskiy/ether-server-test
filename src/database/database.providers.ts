@@ -3,8 +3,6 @@ import { EtherTransaction } from './etherTransaction.entity';
 import * as sequelizeConfig from '../../config/database.json';
 import { SequelizeConfig } from './types';
 
-console.log(sequelizeConfig);
-
 const config = (
   process.env.NODE_ENV === 'production'
     ? sequelizeConfig.production

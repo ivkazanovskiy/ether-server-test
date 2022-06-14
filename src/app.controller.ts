@@ -6,7 +6,7 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get()
-  getMaxChangedAccount(): Promise<any> {
+  getMaxChangedAccount(): Promise<string> {
     return this.appService.getMaxChangedAccount();
   }
 }

@@ -11,7 +11,7 @@ export class AppService {
     private etherTransactionRepository: typeof EtherTransaction,
   ) {}
 
-  async getMaxChangedAccount(): Promise<any> {
+  async getMaxChangedAccount(): Promise<string> {
     const maxBlock: number = await this.etherTransactionRepository.max('block');
 
     if (!maxBlock) {
